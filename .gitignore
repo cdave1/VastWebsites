@@ -24,3 +24,69 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 # Pods/
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+.DS_Store
+*.o
+*.lo
+*.Plo
+build/
+objs/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Xcode
+# build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+project.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+!hdk.libs.xcworkspace
+!build/
+
+# Freetype 2
+freetype2/
+boost*/
+
+!JavaScriptCore/libiOSJavaScriptCore.a
+!lib/JavaScriptCore/*.a
+
+# Local xcconfig files
+hdk.local.xcconfig
+
+# Oculus
+lib/OculusSDK.0.2.5/
+lib/OculusSDK.0.3.2/
+!lib/difont/lib/freetype2/
+lib/OculusSDK.0.4.1/
+
+OculusWorldDemo.build/
+lib/OculusSDK.0.4.2/Samples/OculusWorldDemo/Bin/Mac/Release/
+lib/OculusSDK.0.4.2/LibOVR/Lib/Mac/Release/
+
+lib/OculusSDK.0.4.3/Samples/OculusWorldDemo/Bin/Mac/Release/
+lib/OculusSDK.0.4.3/LibOVR/Lib/Mac/Release/
+lib/OculusSDK.0.4.3/Samples/OculusWorldDemo/
