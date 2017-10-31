@@ -1,4 +1,4 @@
 VastWebsites
 ============
 
-See vastvr.com
+See www.vastvr.com
